@@ -48,7 +48,7 @@ fn main() {
     
     let amount = amount.trim().parse::<f64>().expect("Please enter a number");
     
-    println!("Naira to Dollars is 618 @ 11th July, 2022.");
+    println!("Naira to Dollars is 618 on 11th July, 2022.");
     println!("{sign}{amount} is {converted_sign}{:.4}. In essence, we're forked.", convert(amount, choice));
 }
 
